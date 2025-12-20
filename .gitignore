@@ -1,6 +1,7 @@
 # ===== Markdown Files =====
 *.md
 !README.md
+!docs/**
 
 # ===== Dependencies =====
 /node_modules
