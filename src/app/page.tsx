@@ -93,15 +93,6 @@ export const metadata: Metadata = {
     'mysore cab booking online',
     'mysore taxi near me'
   ],
-    'ooty trip from mysore',
-    'coorg tour mysore',
-    'mysore one day tour',
-    
-    // Trust signals
-    'verified cab service mysore',
-    'trusted taxi mysore',
-    'reliable cab mysore'
-  ],
   openGraph: {
     title: 'Mysore Cab Booking | #1 Taxi Service in Mysore | ₹11/km',
     description: 'Book trusted taxi service in Mysore. Outstation trips, airport transfers, local tours. 4.8★ rating, 10,000+ happy customers. Professional drivers, GPS-enabled fleet. Call +91 96327 22100',
