@@ -9,41 +9,71 @@ import { BUSINESS_INFO } from '@/data/constants';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Cab Rental Mysore - Professional Taxi Services | 24/7 Cabs Available',
-  description: 'Book best taxi services in Mysore. Cabs in Mysore for outstation trips (Ooty, Coorg, Bangalore), airport transfers, local sightseeing, tempo traveller. Professional drivers, 24/7 service. Starting ₹11/km. Call +91 96327 22100',
+  title: 'Mysore Cab Booking | Taxi Service Mysore ₹11/km | Outstation & Airport Cabs',
+  description: 'Book verified taxi service in Mysore. Outstation cabs to Ooty, Coorg, Bangalore from ₹11/km. Airport transfers ₹2,800. Local sightseeing ₹1,500. 4.8★ rated. 24/7 service. Call +91 96327 22100 for instant booking.',
   keywords: [
-    'taxi services in mysore',
-    'cabs in mysore',
-    'cab rental mysore',
+    // Primary high-intent keywords
     'taxi service mysore',
-    'best taxi in mysore',
-    'mysore taxi',
-    'outstation cab mysore',
-    'mysore to ooty cab',
-    'mysore to bangalore taxi',
-    'airport taxi mysore',
-    'tempo traveller mysore',
-    'mysore local sightseeing',
-    'car rental mysore',
-    'mysore cab booking',
-    'swift dzire mysore',
-    'innova hire mysore',
-    'mysore tour packages',
-    'ooty tour from mysore',
-    'coorg package mysore',
-    'cab service reviews mysore',
-    'best taxi service mysore',
-    'mysore travels',
-    'car hire mysore',
     'cab booking mysore',
     'mysore taxi booking',
-    'call taxi mysore'
+    'cab rental mysore',
+    'mysore cab service',
+    
+    // Service-specific high-intent
+    'outstation cab mysore',
+    'mysore to ooty cab',
+    'mysore to coorg taxi',
+    'mysore to bangalore cab',
+    'airport taxi mysore',
+    'mysore airport transfer',
+    'mysore local sightseeing cab',
+    'tempo traveller mysore',
+    
+    // Long-tail transactional keywords
+    'book cab mysore online',
+    'mysore taxi fare',
+    'best taxi service mysore',
+    'cheap cab mysore',
+    'mysore cab booking online',
+    'mysore taxi near me',
+    '24 hour taxi mysore',
+    'call taxi mysore',
+    
+    // Location-specific
+    'car rental mysore',
+    'mysore travels',
+    'innova crysta mysore',
+    'swift dzire taxi mysore',
+    
+    // Tour packages
+    'mysore tour packages',
+    'mysore sightseeing package',
+    'ooty trip from mysore',
+    'coorg tour mysore',
+    'mysore one day tour',
+    
+    // Trust signals
+    'verified cab service mysore',
+    'trusted taxi mysore',
+    'reliable cab mysore'
   ],
   openGraph: {
-    title: 'Cab Rental Mysore - Book Taxi for Outstation, Local & Airport Transfers',
-    description: 'Reliable taxi services in Mysore. Outstation cabs, local sightseeing, airport transfers. Professional drivers, 24/7 service. Call +91 96327 22100',
+    title: 'Mysore Cab Booking | #1 Taxi Service in Mysore | ₹11/km',
+    description: 'Book trusted taxi service in Mysore. Outstation trips, airport transfers, local tours. 4.8★ rating, 10,000+ happy customers. Professional drivers, GPS-enabled fleet. Call +91 96327 22100',
     type: 'website',
-  }
+    url: 'https://cabrentalmysore.in',
+    images: [
+      {
+        url: 'https://cabrentalmysore.in/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Cab Rental Mysore - Premium Taxi Services',
+      },
+    ],
+  },
+  alternates: {
+    canonical: 'https://cabrentalmysore.in',
+  },
 };
 
 export default function Home() {
